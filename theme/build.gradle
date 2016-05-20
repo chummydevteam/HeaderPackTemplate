@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "org.cyanogenmod.theme.template"
+        applicationId "chummy.dirtyunicorns.header.template"
         minSdkVersion 23
         targetSdkVersion 23
         versionCode 1000
