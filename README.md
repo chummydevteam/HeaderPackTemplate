@@ -1,6 +1,6 @@
 # HeaderPackTemplate Readme
 
-To use this, template, the key differences from the CyanogenMod template is two things,
+To use this template, the key differences from the CyanogenMod template are these two things:
 
 ## AndroidManifest.xml
 
@@ -17,7 +17,9 @@ Finally, please make sure that your theme's "res/values" folder (not under asset
         <item>headers</item>
     </string-array>
     
-These two changes will allow for Play Store to filter your Header APK to distribute ONLY to ROMs with these specific commits:
+These two changes will allow for Play Store to filter your Header APK to distribute ONLY to ROMs with these specific commits...
+
+(Please make sure that you have these 4 commits merged in your target rom to allow it to be VISIBLE on ROMs other than DU from Play Store!)
 
 ### ThemesProvider
 https://github.com/DirtyUnicorns/android_packages_providers_ThemesProvider/commit/46cc240c06588c49d3fd9d0d835e38a0feddad8d
@@ -27,5 +29,3 @@ https://github.com/DirtyUnicorns/android_frameworks_base/commit/e6eadc2461c35ac2
 https://github.com/DirtyUnicorns/android_packages_apps_ThemeChooser/commit/a834d60ffed1d694211a77552239f365290b8e07
 ### Vendor
 https://github.com/DirtyUnicorns/android_vendor_du/commit/b8781a263608eb6da2950de047724f29a1898db1
-
-Please make sure that you have these 4 commits merged in your target rom to allow it to be VISIBLE on ROMs other than DU from Play Store!
